@@ -33,4 +33,6 @@ jobs:
   #      conda install pytest
   #      pytest
     - name: Run Python script
-      run: python python/test.py
+      run: |
+        conda install webview 
+        python python/test.py
