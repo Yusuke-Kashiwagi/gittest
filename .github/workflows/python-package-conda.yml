@@ -31,7 +31,7 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        pytest
+        pytest test.py
     - name: Run Python script
       run: |
         conda install -c primer pywebview
