@@ -34,5 +34,5 @@ jobs:
   #      pytest
     - name: Run Python script
       run: |
-        conda install -c conda-forge pywebview 
+        conda install -c primer pywebview
         python python/test.py
