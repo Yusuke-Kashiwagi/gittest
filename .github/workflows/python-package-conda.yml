@@ -32,6 +32,7 @@ jobs:
   #    run: |
   #      conda install pytest
   #      pytest
+    - uses: s-weigand/setup-conda
     - name: Run Python script
       run: |
         conda install -c primer pywebview
