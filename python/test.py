@@ -1,4 +1,3 @@
-import run_javascript
 import hello_world
 
 if __name__ == '__main__':
