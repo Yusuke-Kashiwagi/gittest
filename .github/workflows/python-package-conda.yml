@@ -30,8 +30,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: conda install
       run: |
-
+        conda install -c primer pywebview
     - name: Test with pytest
       run: |
-        conda install -c primer pywebview
         pytest python/test.py
